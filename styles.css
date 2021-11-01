@@ -1,0 +1,284 @@
+body{
+    background-color: #023047;
+}
+
+#mainContainer{
+    margin: auto;
+    width: 650px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#questionContainer{
+    border-radius: 10px;
+    background-color: #8ecae6;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 650px;
+    height: 150px;
+    max-width: 100%;
+}
+#questionText{
+    color: #023047;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding-top:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#container{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    size: 650px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+#anscontainer1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#anscontainer1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#anscontainer2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#anscontainer3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#anscontainer4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8ecae6;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#answbtn1,#answbtn2, #answbtn3, #answbtn4 {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #8ecae6;
+    width: 650px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#answbtn1:hover, #answbtn2:hover, #answbtn3:hover, #answbtn4:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: lightblue;
+    width: 650px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+#answbtn1:active, #answbtn2:active, #answbtn3:active, #answbtn4:active{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #ffb703;
+    color: white;
+    width: 650px;
+    height: 60px;
+    border: none;
+}
+
+#answbtn1.right, #answbtn2.right, #answbtn3.right, #answbtn4.right{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #48eb5d;
+    color: white;
+    width: 650px;
+    height: 60px;
+    border: none;
+}
+
+#answbtn1.wrong, #answbtn2.wrong, #answbtn3.wrong, #answbtn4.wrong{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #ff2424;
+    color: white;
+    width: 650px;
+    height: 60px;
+    border: none;
+}
+
+#retreatdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+#retreat{
+    background-color: #fb8500;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+#retreat:hover{
+    background-color: #ffc077;
+    height: 50px;
+    border: none;
+}
+
+#retreat:active{
+    background-color: #ff2424;
+    height: 50px;
+    border: none;
+}
+
+#score{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#nextcontainer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 650px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#nextbtn{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #8ecae6;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#nextbtn:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: lightblue;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+#nextbtn:active{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #ffb703;
+    color: white;
+    width: 250px;
+    height: 60px;
+    border: none;
+}
+
+#startbtn , #historybtn, #retrybtn, #mainMenu{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #8ecae6;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#startbtn:hover, #historybtn:hover, #retrybtn:hover, #mainMenu:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: lightblue;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+#startbtn:active,#historybtn:active, #retrybtn:active, #mainMenu:active{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    background-color: #ffb703;
+    color: white;
+    width: 250px;
+    height: 60px;
+    border: none;
+}
+
+#victoryText, #failureText{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-self: center;
+}
+#scoreBoardTableBody, #scoreBoardTable{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 550px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+th{
+    border-bottom: 3px solid #8ecae6;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+td {
+    padding: 20px;
+    border-bottom: 1px solid #8ecae6;
+    border-radius: 30px;
+}
+.hidden{
+    display: none;
+}

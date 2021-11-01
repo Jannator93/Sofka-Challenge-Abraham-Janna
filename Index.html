@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript " src="QuestionAnswerGame.js" defer></script>
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <div id="retreatdiv" class="hidden">
+            <button id="retreat" class="hidden">Retreat</button>
+            <h3 id="score" class="hidden"></h3>
+        </div>
+
+        <div id="container" class="hidden">
+            <div id="questionContainer" class="hidden">
+                <p id="questionText">Question</p>
+            </div>
+
+
+            <div id="anscontainer1" class="hidden">
+                <button id="answbtn1">Answer1</button>
+            </div>
+
+            <div id="anscontainer2" class="hidden">
+                <button id="answbtn2">Answer2</button>
+            </div>
+
+            <div id="anscontainer3" class="hidden">
+                <button id="answbtn3">Answer3</button>
+            </div>
+
+            <div id="anscontainer4" class="hidden">
+                <button id="answbtn4">Answer4</button>
+            </div>
+        </div>
+        <p id="victoryText" class="hidden">Congratulations! You got points </p>
+        <p id="failureText" class="hidden">You failed your last question, retreat next time</p>
+        <table id="scoreBoardTable" class="hidden">
+            <thead>
+                <tr>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="scoreBoardTableBody">
+
+            </tbody>
+        </table>
+        <div class=maincontrols>
+            <div id="nextcontainer" class="hidden">
+                <button id="nextbtn" class="hidden">Next question</button>
+                <button id="startbtn"> Start</button>
+                <button id="mainMenu" class="hidden">Main menu</button>
+                <button id="retrybtn" class="hidden"> Retry </button>
+                <button id="historybtn">Best results</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
